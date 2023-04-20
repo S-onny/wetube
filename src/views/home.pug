@@ -1,5 +1,7 @@
-extends base.pug
+extends base
+include mixins/video
 
 block content 
-    h1 Home!
-    input(placeholder="Whats your name")
+    h2 Welcome
+    each potato in videos
+        +video(potato)
