@@ -7,7 +7,7 @@
     "url": "git+https://github.com/S-onny/wetube.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "Sonny",
   "license": "ISC",
@@ -17,6 +17,7 @@
   "homepage": "https://github.com/S-onny/wetube#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "mongoose": "^7.0.5",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
